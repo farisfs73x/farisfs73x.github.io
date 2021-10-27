@@ -11451,6 +11451,21 @@ section.resume-section .resume-section-content {
   color: red;
 }
 
+.list-inline-item {
+  color: grey !important;
+}
+
+.custom-icon-fsx {
+  filter: grayscale(10);
+  margin: 0;
+  padding: 0;
+  height: 45px;
+  width: 45px;
+  display: block;
+  color: var(--bs-secondary) !important;
+  /* Other styles here */
+}
+
 .footer-fsx {
   padding: 10px 0 50px 0;
   bottom: 0;
