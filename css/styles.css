@@ -11457,13 +11457,12 @@ section.resume-section .resume-section-content {
 
 .custom-icon-fsx {
   filter: grayscale(10);
-  margin: 0;
-  padding: 0;
-  height: 45px;
-  width: 45px;
-  display: block;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
   color: var(--bs-secondary) !important;
-  /* Other styles here */
 }
 
 .footer-fsx {
