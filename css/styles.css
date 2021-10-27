@@ -11461,7 +11461,7 @@ section.resume-section .resume-section-content {
   padding: 5px 15px;
 }
 .foot-fsx a {text-decoration: none;}
-.foot-fsx a:hover {color: red;}
+.foot-fsx a:hover {color: red !important;}
 .blue-fsx {color: var(--text-secondary-blue-fsx);}
 .copyright-fsx {float: left;}
 .poweredby-fsx {float: right;}
