@@ -15,7 +15,7 @@
   --nav-blue-fsx: #161b22;
   --bg-blue-fsx: #010409;
   --text-main-white-fsx: #f0f6fc;
-  --text-secondary-blue-fsx: blue;
+  --text-secondary-blue-fsx: #449bff;
 
 
   --bs-blue: #0d6efd;
@@ -11442,6 +11442,15 @@ section.resume-section .resume-section-content {
 }
 
 /*CSS FSX*/
+
+.f-text {
+  color: blue !important;
+}
+
+.s-text {
+  color: red;
+}
+
 .footer-fsx {
   padding: 10px 0 50px 0;
   bottom: 0;
@@ -11452,7 +11461,7 @@ section.resume-section .resume-section-content {
   padding: 5px 15px;
 }
 .foot-fsx a {text-decoration: none;}
-.foot-fsx a:hover {color: var(--text-main-white-fsx);}
+.foot-fsx a:hover {color: red;}
 .blue-fsx {color: var(--text-secondary-blue-fsx);}
 .copyright-fsx {float: left;}
 .poweredby-fsx {float: right;}
