@@ -11419,8 +11419,8 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -11436,12 +11436,30 @@ section.resume-section .resume-section-content {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
 /*CSS FSX*/
+
+.count-visited {
+  margin: 0;
+  padding: 0 0 25px 0;
+  text-align: center;
+}
+
+.count-visited-bg {
+  padding: 5px 0;
+  background-color: rgb(0, 0, 0);
+}
+
+.count-visited-bg mark {
+  color: rgb(241, 241, 241);
+  background-color: rgb(68, 68, 68);
+  padding: 7px 15px;
+  border-radius: 15px;
+}
 
 .f-text {
   color: blue !important;
@@ -11477,10 +11495,12 @@ section.resume-section .resume-section-content {
 .foot-fsx a {text-decoration: none;}
 .foot-fsx a:hover {color: red !important;}
 .blue-fsx {color: var(--text-secondary-blue-fsx);}
+.red-fsx {color: rgb(255, 83, 83);}
+.yellow-fsx {color: yellow;}
 .copyright-fsx {float: left;}
-.poweredby-fsx {float: right;}
+.powered-by-fsx {float: right;}
 
 @media only screen and (max-width: 767px) {
-  .copyright-fsx, .poweredby-fsx{text-align: center;float: unset;}
+  .copyright-fsx, .powered-by-fsx{text-align: center;float: unset;}
   .footer-fsx {padding: 10px 0 10px 0;}
 }

@@ -3,6 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        
+        <meta property="og:title" content="-[ Faris Fs ]-">
+        <meta property="og:image" content="assets\img\Site Icon.jpg">
+        <meta property="og:description" content="Various stuffs related to my B. CompSci">
+        <meta property="og:url" content="https://farisfs73x.github.io">
+        <meta name="twitter:card" content="summary_large_image">
+
         <meta name="description" content="Various stuffs related to my B. CompSci" />
         <meta name="author" content="FarisFs" />
         <title>-[ Faris Fs ]-</title>
@@ -14,6 +21,13 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://api.countapi.xyz/hit/helloworldbyfsx.com/visits?callback=liveViews" async></script>
+        <script>
+            function liveViews(response) {
+                document.getElementById('visits').innerText = response.value;
+                }
+                // The function is called in the CDN on HTML.
+        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -31,12 +45,18 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 </ul>
             </div>
-        </nav>
+        </nav>       
         <!-- Page Content-->
         <div class="container-fluid p-0">
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
+                    <!-- Visit Count -->
+                    <div class="count-visited">
+                        <h5 class="count-visited-bg"><mark>You are the <span class="blue-fsx" id="visits"></span><span class="red-fsx">th</span> visitor to this page <span class="yellow-fsx">!!!</span></mark></h5>
+                    </div>
+
+                    
                     <h1 class="mb-0">
                         Faris
                         <span class="text-primary f-text">F<span class="s-text">s</span></span>
@@ -126,6 +146,7 @@
                         <li class="list-inline-item"><i><img src="assets/icon/c-plus-plus.png" class="custom-icon-fsx" alt="c++"></i></li>
                         <li class="list-inline-item"><i><img src="assets/icon/bootstrap.png" class="custom-icon-fsx" alt="BootStrap"></i></li>
                         <li class="list-inline-item"><i><img src="assets/icon/materialize.png" class="custom-icon-fsx" alt="Materialize"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-git-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-github"></i></li>
                         <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
                         <li class="list-inline-item"><i><img src="assets/icon/visual-studio.png" class="custom-icon-fsx" alt="VS Code"></i></li>
@@ -139,11 +160,13 @@
             <footer>
                 <div class="footer-fsx">
                     <div class="foot-fsx copyright-fsx">
-                        <p>Copyright © <span id="year"></span>
+                        <p>Copyright © 
+                            <span id="year"></span>
                             <a class="blue-fsx" href="https://farisfs73x.github.io">farisfs73x</a>
+                            <span class="red-fsx">|</span> Last Updated: <span class="blue-fsx">30 Oct 2021</span>
                         </p>
                     </div>
-                    <div class="foot-fsx poweredby-fsx">
+                    <div class="foot-fsx powered-by-fsx">
                         <p>Powered by <span class="blue-fsx">FarisFs</p>
                     </div>
                 </div>
