@@ -11444,21 +11444,21 @@ section.resume-section .resume-section-content {
 /*CSS FSX*/
 
 .count-visited {
-  margin: 0;
-  padding: 0 0 25px 0;
-  text-align: center;
+  margin: 0 !important;
+  padding: 0 0 25px 0 !important;
+  text-align: center !important;
 }
 
 .count-visited-bg {
-  padding: 5px 0;
-  background-color: rgb(0, 0, 0);
+  padding: 5px 0 !important;
+  background-color: rgb(0, 0, 0) !important;
 }
 
 .count-visited-bg mark {
-  color: rgb(241, 241, 241);
-  background-color: rgb(68, 68, 68);
-  padding: 7px 15px;
-  border-radius: 15px;
+  color: rgb(241, 241, 241) !important;
+  background-color: rgb(68, 68, 68) !important;
+  padding: 7px 15px !important;
+  border-radius: 15px !important;
 }
 
 .f-text {
@@ -11494,9 +11494,9 @@ section.resume-section .resume-section-content {
 }
 .foot-fsx a {text-decoration: none;}
 .foot-fsx a:hover {color: red !important;}
-.blue-fsx {color: var(--text-secondary-blue-fsx);}
-.red-fsx {color: rgb(255, 83, 83);}
-.yellow-fsx {color: yellow;}
+.blue-fsx {color: var(--text-secondary-blue-fsx) !important;}
+.red-fsx {color: rgb(255, 83, 83) !important;}
+.yellow-fsx {color: yellow !important;}
 .copyright-fsx {float: left;}
 .powered-by-fsx {float: right;}
 
