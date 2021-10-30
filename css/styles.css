@@ -11502,6 +11502,7 @@ section.resume-section .resume-section-content {
 .powered-by-fsx {float: right;}
 
 @media only screen and (max-width: 767px) {
+  .count-visited h5 {font-size: 15px;}
   .copyright-fsx, .powered-by-fsx{text-align: center;float: unset;}
   .footer-fsx {padding: 10px 0 10px 0;}
 }
