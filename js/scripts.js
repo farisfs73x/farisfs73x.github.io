@@ -7,6 +7,11 @@
 // Scripts
 // 
 
+// The function is called in the CDN on HTML.
+function liveViews(response) {
+    document.getElementById('visits').innerText = response.value;
+}
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
