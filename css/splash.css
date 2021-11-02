@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.red-fsx {color: red;}
+.yellow-fsx {color: yellow;}
+.blue-fsx {color: blue;}
+
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: #c9d1d9;
+    z-index: 200;
+    text-align: center;
+    line-height: 90vh;
+}
+
+.splash.display-none {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #010409;
+    color: #c9d1d9;
+    z-index: -10;
+    text-align: center;
+    line-height: 90vh;
+    transition: all 0.5s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    font-size: 90px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@media only screen and (max-width: 767px) {
+    .splash h1 {
+        font-size: 40px;
+    }
+  }

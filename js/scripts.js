@@ -7,6 +7,15 @@
 // Scripts
 // 
 
+// Splash Screen
+const splash = document.querySelector('.splash');
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+    setTimeout(()=>{
+        splash.classList.add('display-none');
+    }, 2000);
+})
+
 // The function is called in the CDN on HTML.
 function liveViews(response) {
     document.getElementById('visits').innerText = response.value;
