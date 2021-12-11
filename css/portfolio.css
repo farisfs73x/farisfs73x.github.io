@@ -39,9 +39,6 @@
             height: 160px;
             bottom: -90px;
         } */
-        #portfolio .container .row > *{
-            width: 100%;
-        }
     }
     .single_advisor_profile .advisor_thumb .social-info {
         position: absolute;
@@ -150,6 +147,12 @@
     font-size: 24px;
 }
 
+#portfolio .container .row .single_advisor_details_info h5 {
+    font-size: 16px;
+    color: #919394;
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width: 767px) {
     .single_advisor_details_info h6{
         font-size: 14px;
@@ -166,5 +169,20 @@
 
     .single_advisor_profile .single_advisor_details_info {
         padding: 10px;
+    }
+
+    #portfolio .container .row > *{
+        width: 100%;
+    }
+
+    #portfolio .container .row .single_advisor_details_info h5 {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #portfolio .container .row .single_advisor_details_info h5 {
+        font-size: 12px;
     }
 }
