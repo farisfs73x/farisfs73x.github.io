@@ -40,7 +40,7 @@
             bottom: -90px;
         } */
         #portfolio .container .row > *{
-            width: 50%;
+            width: 100%;
         }
     }
     .single_advisor_profile .advisor_thumb .social-info {
@@ -166,9 +166,5 @@
 
     .single_advisor_profile .single_advisor_details_info {
         padding: 10px;
-    }
-
-    .justify-content-col-center {
-        justify-content: center !important;
     }
 }
