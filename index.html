@@ -2,18 +2,30 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <!-- <meta http-equiv="cache-control" content="no-cache" />
-        <meta http-equiv="Pragma" content="no-cache" />
-        <meta http-equiv="Expires" content="-1" /> -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta property="og:title" content="-[ Faris Fs ]-">
-        <meta property="og:image" content="https://farisfs73x.github.io/assets/img/Site Icon.jpg">
-        <meta property="og:description" content="Various stuffs related to my B. CompSci">
-        <meta property="og:url" content="https://farisfs73x.github.io">
-        <meta name="author" content="FarisFs">
-        <meta name="twitter:card" content="summary_large_image">
+
+        <!-- Primary Meta Tags -->
         <title>-[ Faris Fs ]-</title>
+        <meta name="title" content="-[ Faris Fs ]-">
+        <meta name="description" content="Various stuff related to my B. CompSci.">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://farisfs73x.github.io/">
+        <meta property="og:title" content="-[ Faris Fs ]-">
+        <meta property="og:description" content="Various stuff related to my B. CompSci.">
+        <meta property="og:image" content="https://farisfs73x.github.io/assets/img/Site Icon.jpg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://farisfs73x.github.io/">
+        <meta property="twitter:title" content="-[ Faris Fs ]-">
+        <meta property="twitter:description" content="Various stuff related to my B. CompSci.">
+        <meta property="twitter:image" content="https://farisfs73x.github.io/assets/img/Site Icon.jpg">
+
+        <!-- Site Icon @ Favicon -->
         <link rel="icon" type="image/x-icon" href="assets/img/Site Icon Circle.png" />
+        
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -24,6 +36,11 @@
         <link rel="stylesheet" href="css/portfolio.css?v=2">
     </head>
     <body id="page-top">
+
+        <!-- Rainbow Scrollbar -->
+        <div id="progressbar"></div>
+        <div id="scrollPath"></div>
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -47,15 +64,15 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <!-- Visit Count -->
-                    <div class="count-visited">
+                    <!-- <div class="count-visited">
                         <h5 class="count-visited-bg"><mark>You are the <span class="yellow-fsx" id="visits"></span><span class="blue-fsx">th</span> visitor to this page <span class="red-fsx">!!!</span></mark></h5>
-                    </div>
+                    </div> -->
                     <h1 class="mb-0">
                         Faris
                         <span class="text-primary f-text">F<span class="s-text">s</span></span>
                     </h1>
                     <div class="subheading mb-5">
-                        Somewhere, Malaysia
+                        Kelantan, Malaysia
                     </div>
                     <p align="justify" class="lead mb-5">I am experienced in web, mobile apps and also desktop apps development using various types of tools and technologies especially github. Basically, for web development I use HTML, CSS, JS and PHP all the times while for mobile and desktop apps I use Java as main programming language. Right now, I'm learning Laravel framework to enhance and improve my web development skills.</p>
                     <div class="social-icons" style="text-align: center;">
@@ -288,7 +305,14 @@
                     </ul>
                 </div>
             </section>
+            
+            <!-- Visit Count -->
+            <div class="count-visited">
+                <h5 class="count-visited-bg"><mark><span class="blue-fsx" id="visits"></span><span class="white-fsx"> Views</span></mark></h5>
+            </div>
+            
             <hr class="m-0" />
+            
             <!-- Footer -->
             <footer>
                 <div class="footer-fsx">
@@ -296,7 +320,7 @@
                         <p>Copyright © 
                             <span id="year"></span>
                             <a class="blue-fsx" href="https://farisfs73x.github.io">farisfs73x</a>
-                            <span class="red2-fsx">|</span> Last Updated: <span class="blue-fsx">12 Dec 2021</span>
+                            <span class="red2-fsx">|</span> Last Updated: <span class="blue-fsx">15 Dec 2021</span>
                         </p>
                     </div>
                     <div class="foot-fsx powered-by-fsx">
@@ -308,7 +332,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js?v=1"></script>
+        <script type="text/javascript" src="js/scripts.js?v=1"></script>
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();
         </script>
