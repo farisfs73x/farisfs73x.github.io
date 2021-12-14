@@ -11560,3 +11560,13 @@ section.resume-section .resume-section-content {
   background: linear-gradient(to top, #008aff, #00ffe7);
   filter: blur(30px);
 }
+
+@media only screen and (max-width: 767px) {
+  #scrollPath {
+    width: 2px;
+  }
+  #progressbar {
+    position: fixed;
+    width: 2px;
+  }
+}
