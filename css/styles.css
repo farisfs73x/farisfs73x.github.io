@@ -11564,9 +11564,11 @@ section.resume-section .resume-section-content {
 
 @media only screen and (max-width: 767px) {
   #scrollPath {
+    left: 0;
     width: 2px;
   }
   #progressbar {
+    left: 0;
     position: fixed;
     width: 2px;
   }
