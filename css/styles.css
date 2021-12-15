@@ -11485,7 +11485,7 @@ section.resume-section .resume-section-content {
 }
 
 .footer-fsx {
-  position: relative;
+  position: relative !important;
   padding: 10px 0 50px 0;
   bottom: 0;
   background-color: var(--nav-blue-fsx) !important;
