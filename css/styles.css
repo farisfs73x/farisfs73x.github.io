@@ -11462,6 +11462,8 @@ section.resume-section .resume-section-content {
   border-radius: 15px !important;
 }
 
+.location {color: #c9d1d9 !important;}
+
 .f-text {
   color: blue !important;
 }
@@ -11596,4 +11598,5 @@ section.resume-section .resume-section-content {
   transform-origin: 50% 100%;
   display: inline-block;
   line-height: 1em;
+  color: #3434fa !important;
 }
