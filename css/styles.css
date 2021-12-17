@@ -11429,7 +11429,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -11442,6 +11442,24 @@ section.resume-section .resume-section-content {
 }
 
 /*CSS FSX*/
+
+.mb-fsx {
+  width: 35%;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2)
+}
+
+/* --------------------------Rotate Image Profile-------------------------- */
+@keyframes spinning {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(-360deg) }
+}
+.spin {
+  animation-name: spinning;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: ease-in-out;
+}
 
 .count-visited {
   margin: 0 !important;
