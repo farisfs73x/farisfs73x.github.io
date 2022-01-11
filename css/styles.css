@@ -11461,10 +11461,15 @@ section.resume-section .resume-section-content {
   animation-timing-function: ease-in-out;
 }
 
-.count-visited {
+.count-visited, .quote {
   margin: 0 !important;
   padding: 0 0 25px 0 !important;
   text-align: center !important;
+}
+
+.quote {
+  padding: 0 50px 0 50px !important;
+  font-size: 12px;
 }
 
 .count-visited-bg {
@@ -11528,6 +11533,7 @@ section.resume-section .resume-section-content {
   .count-visited h5 {font-size: 15px;}
   .copyright-fsx, .powered-by-fsx{text-align: center;float: unset;}
   .footer-fsx {padding: 10px 0 10px 0;}
+  .quote { padding: 0 20px 0 20px !important; }
 }
 
 
