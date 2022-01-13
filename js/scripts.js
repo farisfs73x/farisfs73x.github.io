@@ -88,7 +88,13 @@ $.getJSON('https://programming-quotes-api.herokuapp.com/Quotes/random', function
     var quote = `${data.en}`
     var author = `${data.author}`
 
-    $("#quote").html(quote);
-    $("#quote_author").html(author);
+    var text = `<h5>
+                    "` + quote + `"
+                    <span class="red2-fsx"> - </span>
+                    <span class="blue-fsx">` + author + `</span>
+                </h5>
+                <br>`
+
+    $("#quote").html(text);
 
 });
