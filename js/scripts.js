@@ -81,7 +81,9 @@ anime.timeline({
 });
 
 
-// ------------------Quote------------------
+// --------- JUST UNCOMMENT WHICH QUOTES WANT TO USE (Developer @ Normal) ---------
+
+// ------------------Quote 1 (Developer Quotes)------------------
 
 $.getJSON('https://programming-quotes-api.herokuapp.com/Quotes/random', function(data) {
 
@@ -98,3 +100,30 @@ $.getJSON('https://programming-quotes-api.herokuapp.com/Quotes/random', function
     $("#quote").html(text);
 
 });
+
+
+// ------------------Quote 2 (Normal Quotes)------------------
+
+// $.getJSON('https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json', function(data) {
+
+//     function getRandomInt() {
+//         return Math.floor(Math.random() * data.quotes.length);
+//     }
+
+//     var ob_num = getRandomInt()
+
+//     var quote = `${data.quotes[ob_num].quote}`
+//     var author = `${data.quotes[ob_num].author}`
+
+//     // console.log(ob_num)  which n-th object display in console
+
+//     var text = `<h5>
+//                     "` + quote + `"
+//                     <span class="red2-fsx"> - </span>
+//                     <span class="blue-fsx">` + author + `</span>
+//                 </h5>
+//                 <br>`
+
+//     $("#quote").html(text);
+
+// });
