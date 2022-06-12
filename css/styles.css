@@ -11474,7 +11474,7 @@ section.resume-section .resume-section-content {
 
 .count-visited-bg {
   padding: 5px 0 !important;
-  background-color: rgb(0, 0, 0) !important;
+  background-color: transparent !important;
 }
 
 .count-visited-bg mark {
