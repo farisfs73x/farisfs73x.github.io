@@ -1,0 +1,56 @@
+{
+    "data":[
+        {
+            "en":"Programming is the art of algorithm design and the craft of debugging errant code.",
+            "author":"Ellen Ullman"
+        },
+        {
+            "en":"Programming today is a race between software engineers striving to build bigger and better idiot-proof programs and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.",
+            "author":"Rick Cook"
+        },
+        {
+            "en":"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+            "author":"Martin Fowler"
+        },
+        {
+            "en":"Experience is the name everyone gives to their mistakes.",
+            "author":"Oscar Wilde"
+        },
+        {
+            "en":"Programming is the art of telling another human being what one wants the computer to do.",
+            "author":"Donald Ervin Knuth"
+        },
+        {
+            "en":"Confusion is part of programming.",
+            "author":"Felienne Hermans"
+        },
+        {
+            "en":"Quality is a product of a conflict between programmers and testers.",
+            "author":"Yegor Bugayenk"
+        },
+        {
+            "en":"Everybody should learn to program a computer because it teaches you how to think.",
+            "author":"Steve Jobs"
+        },
+        {
+            "en":"I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12.",
+            "author":"Elon Musk"
+        },
+        {
+            "en":"Software and cathedrals are much the same — first we build them, then we pray.",
+            "author":"Anonymous"
+        },
+        {
+            "en":"Web development is difficult, only then it is fun to do. You just have to set your standards. If it were to be easy, would anyone do it?",
+            "author":"Olawale Daniel"
+        },
+        {
+            "en":"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+            "author":"Linus Torvalds"
+        },
+        {
+            "en":"Programmer: A machine that turns coffee into code.",
+            "author":"Anonymous"
+        }
+    ]
+}

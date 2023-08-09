@@ -85,10 +85,13 @@ anime.timeline({
 
 // ------------------Quote 1 (Developer Quotes)------------------
 
-$.getJSON('https://programming-quotes-api.herokuapp.com/Quotes/random', function(data) {
+$.getJSON('/js/quotes.json', function(data) {
+    
+    var quotesTotal = data.data.length;
+    var indexRandom = Math.floor(Math.random() * quotesTotal);
 
-    var quote = `${data.en}`
-    var author = `${data.author}`
+    var quote = `${data.data[indexRandom].en}`
+    var author = `${data.data[indexRandom].author}`
 
     var text = `<h5>
                     "` + quote + `"
