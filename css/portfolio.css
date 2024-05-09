@@ -186,3 +186,20 @@
         font-size: 12px;
     }
 }
+
+
+
+
+/* ------------------------------------ Portfolio Detail Modal ------------------------------------ */
+:root {
+  /*FSX*/
+  --nav-blue-fsx: #161b22;
+  --bg-blue-fsx: #010409;
+  --text-main-white-fsx: #f0f6fc;
+  --text-secondary-blue-fsx: #449bff;
+}
+
+.bg-portfolio-modal{
+    background-color: #070a57;
+    border-color: var(--bg-blue-fsx);
+}
